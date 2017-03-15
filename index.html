@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html  ng-app = "mainApp" lang="en">
+
+	<!-- 
+	https://github.com/adamalbrecht
+	-->
+
+	<head>
+
+    	<meta charset="utf-8">
+
+    	<title>TecnicoChery</title>
+
+    	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    	<link rel="stylesheet" href="app.styles.css" />
+
+		<script src="bower_components/angular/angular.js"></script>
+    	<script src="bower_components/angular-route/angular-route.js"></script>
+	    
+		<script src="app.main.js"></script>		
+    	
+  	</head>
+
+  	 <body>
+
+	  	 <div class="container">
+
+	    	<div class="row">
+
+	        	<div class="col-md-12">
+
+	        		<!-- Head -->
+	        		
+	        		<div class="jumbotron">
+
+			    		<h2 style="color:red;font-weight:bold;">TecnicoChery</h2>
+
+			    	</div>
+
+			    	<!-- Menu -->
+
+			    	<div>
+			         
+			        	<a href = "#/">Home</a>
+			         
+			        	&nbsp&nbsp
+
+			        	<a href = "#/ordenes">Ordenes</a>
+			        	
+			        	&nbsp&nbsp
+
+			        	<a href = "#/clientes">Clientes</a>
+
+			        	&nbsp&nbsp
+
+			        	<a href = "#/bancos">Bancos</a>
+
+			    	</div>
+
+		        	<!-- ng-view -->
+		        	<div ng-view style="background-color:silver;padding:15px;"></div>
+			      
+		        	<!-- Footer -->
+		        
+		        	<div style="height:60px;background-color:black;color:white;padding-left:15px;">
+		        		
+		        		<br />
+
+		        		<div class="row">
+
+		        			<div class="col-xs-3 col-sm-3">
+		        				Contacto
+		        			</div>
+
+		        			<div class="col-xs-3 col-sm-3">
+		        				Contacto
+		        			</div>
+
+		        			<div class="col-xs-3 col-sm-3">
+		        				Contacto
+		        			</div>
+
+		        			<div class="col-xs-3 col-sm-3">
+		        				Contacto
+		        			</div>
+		        			
+		        		</div>
+		        		
+		        	</div>
+
+	        	</div>
+
+	    	</div>
+
+	    </div>
+
+  	</body>
+
+</html>
