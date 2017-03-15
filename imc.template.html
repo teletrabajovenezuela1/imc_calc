@@ -2,24 +2,14 @@
 
   <form name="frm" novalidate>
 
-    <!--
-    <label>Sexo</label>
-    <br>
-    <div class="form-group">
-      <input type="radio" name="mujer" ng-model="sexo" value="femenino"/> Femenino
-      &nbsp;      
-      <input type="radio" name="hombre" ng-model="sexo" value="masculino"/> Masculino
-    </div>
-    -->
-    
     <label>Peso (kg)</label>
     <br>
-    <input type="number" name="peso" ng-model="peso" min="0" max="500" required><br>
+    <input type="number" name="peso" ng-model="peso" min="0" max="500" class="form-control" required><br>
     <br/>
   
-    <label>Altura (mts)</label>
+    <label>Altura (en mts)</label>
     <br>
-    <input type="number" name="alturamts" ng-model="alturamts" min="0" max="2.5" step="0.1" required>
+    <input type="number" name="alturamts" ng-model="alturamts" min="0" max="2.5" step="0.1" class="form-control" required>
   
     <br><br>
   
