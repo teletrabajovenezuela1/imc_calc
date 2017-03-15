@@ -1,22 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
 
-<html  lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="script.js"></script>
+  </head>
 
-	<head>
-
-    	<meta charset="utf-8">
-
-    	<title>Calculadora de IMC</title>
-    	
-  	</head>
-
-  	 <body>
-
-  	 	<h1>Calculadora de IMC</h1>
-
-  	 	<p>Aplicacion diseñada utilizando AngularJS y Bootstrap</p>
-
-
-  	</body>
+  <body ng-app="myApp">
+    
+    <h3>Calculadora de IMC</h3>
+    
+    <p>Por Alberto G. - Feb 2017</p>
+    
+    <div ng-controller="imcCtrl">
+      <div my-imc></div>
+    </div>
+  
+  </body>
 
 </html>
