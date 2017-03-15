@@ -1,18 +1,22 @@
 <div style="margin-left:15px;margin-right:15px;">
 
   <form name="frm" novalidate>
-
-    <label>Entre Peso (en kg.)</label>
-    <br>
-    <input type="number" name="peso" ng-model="peso" min="0" max="500" required><br>
-    <br/>
   
     <label>Entre Altura (en mts.)</label>
+
+    <label>** Peso (kg)</label>
     <br>
-    <input type="number" name="alturamts" ng-model="alturamts" min="0" max="2.5" step="0.1" required>
+    <input type="number" name="peso" ng-model="peso" min="0" max="500" class="form-control" required><br>
+    <br/>
   
-    <br><br>
+
+    <label>** Altura (en mts)</label>
+    <br>
+    <input type="number" name="alturamts" ng-model="alturamts" min="0" max="2.5" step="0.1" class="form-control" required>
+    <br>
+    <br>
   
+
     <label>El IMC es:</label> <span class="azul">{{imc | number}}</span>
     <br>
     <label>Análisis del resultado:</label>
